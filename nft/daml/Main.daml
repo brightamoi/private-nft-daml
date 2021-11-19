@@ -27,6 +27,7 @@ setup = script do
         initialPrice = 100.00
         currency = "USD"
         royaltyRate = 0.05 
+        thumbnail="" 
 
  bobOffer <- submit alice do
     exerciseCmd originalToken Offer

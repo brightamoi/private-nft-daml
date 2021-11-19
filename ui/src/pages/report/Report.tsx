@@ -8,7 +8,7 @@ import Button from "@material-ui/core/Button";
 import Ledger from "@daml/ledger";
 import { useLedger, useParty, useStreamQueries} from "@daml/react";
 import { ContractId } from "@daml/types";
-import { Offer, Token, TokenOffer } from "@daml.js/nft-0.0.1/lib/Token"
+import { Offer, Token, TokenOffer } from "@nft/daml.js/nft-0.0.1/lib/Token"
 import { InputDialog, InputDialogProps } from "./InputDialog";
 import useStyles from "./styles";
 
